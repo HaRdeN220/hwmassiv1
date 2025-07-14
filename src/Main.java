@@ -10,6 +10,7 @@ public class Main {
         abserv[2] = 3;
 
         double[] caps = {1.57, 7.654, 9.986};
+        int [] my = {3, 6 ,92, 34, 54, 4};
 
 //1 dz
         for (int i = 0; i < abserv.length; i++) {
@@ -26,9 +27,23 @@ public class Main {
             }
         }
         System.out.println();
+        for (int i = 0; i < my.length; i++) {
+            System.out.print(my[i]);
+            if ((i + 1) < my.length) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
         System.out.print(abserv[2] + ", " + abserv[1] + ", " + abserv[0]);
         System.out.println();
         System.out.print(caps[2] + ", " + caps[1] + ", " + caps[0]);
+        System.out.println();
+        for (int i = (my.length-1); i >= 0; i--) {
+            System.out.print(my[i]);
+            if (i  != 0) {
+                System.out.print(", ");
+            }
+        }
         System.out.println();
         //2 i 3 dz
         for (int i = 0; i < abserv.length; i++) {
