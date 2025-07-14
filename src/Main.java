@@ -4,24 +4,24 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-int [] abserv = new int [3];
-abserv [0]=1;
-abserv [1]=2;
-abserv [2]=3;
+        int[] abserv = new int[3];
+        abserv[0] = 1;
+        abserv[1] = 2;
+        abserv[2] = 3;
 
-double [] caps = {1.57,7.654,9.986};
+        double[] caps = {1.57, 7.654, 9.986};
 
 //1 dz
-        for (int i =0 ; i < abserv.length; i++) {
+        for (int i = 0; i < abserv.length; i++) {
             System.out.print(abserv[i]);
-            if ((i+1) < abserv.length){
+            if ((i + 1) < abserv.length) {
                 System.out.print(", ");
             }
         }
         System.out.println();
-        for (int i =0 ; i < caps.length; i++) {
+        for (int i = 0; i < caps.length; i++) {
             System.out.print(caps[i]);
-            if ((i+1) < caps.length){
+            if ((i + 1) < caps.length) {
                 System.out.print(", ");
             }
         }
@@ -37,6 +37,6 @@ double [] caps = {1.57,7.654,9.986};
             }
         }
         System.out.println(Arrays.toString(abserv));
-    //4 dz
+        //4 dz
     }
 }
